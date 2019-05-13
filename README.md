@@ -6,6 +6,7 @@ The resulting corpus is located here (as texts.pkl): https://drive.google.com/op
 * most_frequent.ipynb -- a program which writes the list of 1000 most frequent Russian words to most_frequent.txt.
 * inverted_indexer.ipynb -- a program which computes an inverted index of the corpus. For every word in the corpus (excluding stopwords, most frequent Russian words, numerals, named entities and non-alphabetic strings of characters) a list of dates for every occurence of a word in the corpus is computed. </br>
 The resulting index is located here: https://drive.google.com/open?id=1ffqsJfb_UE0s5qGwtQxKj1Ni5rMRF6jg .
+* smoothing.ipynb contains a function, which plots a (smoothed plot) of word occurences in the corpus.
 # References:
 Source for the list of 1000 most frequent Russian words: http://dict.ruslang.ru/freq.php . </br>
 Library used for named entity recognition: https://github.com/deepmipt/ner .
