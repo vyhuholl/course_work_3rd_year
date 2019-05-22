@@ -9,7 +9,8 @@ The resulting index is located here: https://drive.google.com/open?id=1ffqsJfb_U
 * A library used for neural named entity recognition sometimes gives false-negative results. An example of bad NER is located at bad_ner_example.ipynb.
 * results.ipynb contains: </br>
 1. A function, which plots a (smoothed plot) of word occurrences in the corpus.
-2. A code that finds all words which first occurred in 2002 or later and last occurred in 2017 or later Words with less than 5 occurences in corpus and words which have their own page in Wikipedia (most likely named entities falsely marked as non-named entities) were excluded. The resulting list of words is located at results.csv . Occurrence plot for every word is located at graphs folder.
+2. A code that finds all words which first occurred in 2002 or later and last occurred in 2017 or later Words with less than 5 occurences in corpus and words which have their own page in Wikipedia (most likely named entities falsely marked as non-named entities) were excluded. The resulting list of words is located at results.csv . </br>
+Occurrence plots for words are located here: https://drive.google.com/open?id=1FAF-BNCHkLaKK3qOH22GEjcMR0g-n8-y .
 # References:
 A source for the list of 1000 most frequent Russian words: http://dict.ruslang.ru/freq.php . </br>
 A library used for named entity recognition: https://github.com/deepmipt/ner .
